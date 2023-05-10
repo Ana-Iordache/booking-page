@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="base-content">
+        <div class="background-content">
+            <div class="main-title">
+                <h1>Book your next trip</h1>
+                <p>An arrangement you make to have a hotel room, tickets, etc. at a </br> particular time in the future
+                </p>
+            </div>
+
+        </div>
+        <div class="main-content">
+            <div class="search-section">
+                <div class="select-group">
+                    <label for="leave-from-country">Leave from</label>
+                    <select id="leave-from-country" name="leave-from-country" class="form-select"
+                        aria-label=".form-select-lg example">
+                        <option value="brazil" selected>Brazil</option>
+                        <option value="italy">Italy</option>
+                        <option value="france">France</option>
+                        <option value="romania">Romania</option>
+                        <option value="bulgary">Bulgary</option>
+                    </select>
+                </div>
+
+                <div class="select-group">
+                    <label for="to-country">To</label>
+                    <select id="to-country" name="to-country" class="form-select" aria-label=".form-select-lg example">
+                        <option value="brazil" selected>Italy</option>
+                        <option value="germany">Germany</option>
+                        <option value="netherlands">Netherlands</option>
+                        <option value="norway">Norway</option>
+                        <option value="hungary">Hungary</option>
+                    </select>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="date-picker">Depart</label>
+                    <input type="date" id="date-picker" class="form-control">
+                </div>
+
+                <div class="search-button">
+                    <button class="btn btn-primary btn-search" type="submit">SEARCH<i
+                            class='fas fa-search search-icon'></i></button>
+                </div>
+            </div>
+            <div class="destinations-section">
+                <div class="card">
+                    <img src="./media/img2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Entire apartment | 3 Guests | 2 Beds</p>
+                        <h5 class="card-title">Lovely and cozy apartment</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="#" class="btn btn-outline-primary btn-card">FROM/NIGHT</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./media/img3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Private room | 1 Guest | Sofa</p>
+                        <h5 class="card-title">Single room in the center of the city</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="#" class="btn btn-outline-primary btn-card">FROM/NIGHT</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./media/img4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Entire apartment | 2 Guests | 2 Beds</p>
+                        <h5 class="card-title">Independent house bedroom kitchen</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="#" class="btn btn-outline-primary btn-card">FROM/NIGHT</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./media/img5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Entire apartment | 2 Guests | 1 Bed</p>
+                        <h5 class="card-title">Zen Gateway with pool and garden</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="#" class="btn btn-outline-primary btn-card">FROM/NIGHT</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./media/img6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Entire flat | 8 Guests | 3 Rooms</p>
+                        <h5 class="card-title">Cheapest hotels for luxury vacantion</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="#" class="btn btn-outline-primary btn-card">FROM/NIGHT</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./media/img7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Entire apartment | 2 Guests | 1 Bed</p>
+                        <h5 class="card-title">Cozy double room near station</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-primary btn-card">FROM/NIGHT</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination-section">
+                <nav>
+                    <span class="pagination-item"><i class="fas fa-angle-double-left"></i></span>
+                    <span class="pagination-item">1</span>
+                    <span class="pagination-item active">2</span>
+                    <span class="pagination-item">3</span>
+                    <span class="pagination-item">4</span>
+                    <span class="pagination-item">5</span>
+                    <span class="pagination-item"><i class="fas fa-angle-double-right"></i></span>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-interaction-navigation">
+            <div class="contact-section">
+                <div>
+                    <svg width="40" height="40">
+                        <rect x="1" y="1" width="14" height="14" fill="#F0F2F5" stroke="black" stroke-width="2"></rect>
+                        <svg x="4" y="4" width="8" height="8" viewBox="0 0 24 24">
+                            <path d="M7.41,15.59L12,11l4.59,4.59L18,14l-6-6l-6,6L7.41,15.59z"></path>
+                        </svg>
+                        <rect x="16" y="1" width="14" height="14" fill="#F0F2F5" stroke="black" stroke-width="2"></rect>
+                        <svg x="19" y="4" width="8" height="8" viewBox="0 0 24 24">
+                            <path d="M7.41,15.59L12,11l4.59,4.59L18,14l-6-6l-6,6L7.41,15.59z"></path>
+                        </svg>
+                        <rect x="8" y="15" width="14" height="14" fill="#F0F2F5" stroke="black" stroke-width="2"></rect>
+                        <svg x="11" y="18" width="8" height="8" viewBox="0 0 24 24">
+                            <path d="M7.41,15.59L12,11l4.59,4.59L18,14l-6-6l-6,6L7.41,15.59z"></path>
+                        </svg>
+                    </svg>
+                </div>
+                <p class="company-name">DB Could School</p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.github.com/"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <a href="/company">Company</a>
+            <a href="/resources">Resources</a>
+            <a href="/help&support">Help & support</a>
+            <a href="/legal">Legal</a>
+        </div>
+        <div class="footer-copyright">
+            <p class="copyright">All rights reserved. Copyright &copy; 2023 DB Cloud School homework by Ana Iordache</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
